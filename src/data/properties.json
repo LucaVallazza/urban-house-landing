@@ -1,0 +1,134 @@
+{
+  "propiedades": [
+    {
+      "id": 1,
+      "titulo": "Ático de Lujo en Palermo",
+      "precio": "450.000",
+      "tipo": "Venta",
+      "ubicacion": "Palermo, Buenos Aires",
+      "caracteristicas": "3 amb. | 120m² | 2 baños",
+      "descripcion": "Espectacular ático con vista panorámica y terraza privada",
+      "imgUrl": "/src/assets/propiedades/pale-atico.jpg"
+    },
+    {
+      "id": 2,
+      "titulo": "Departamento Moderno en Belgrano",
+      "precio": "180.000",
+      "tipo": "Alquiler",
+      "ubicacion": "Belgrano, Buenos Aires",
+      "caracteristicas": "2 amb. | 75m² | 1 baño",
+      "descripcion": "Ubicación privilegiada, totalmente renovado",
+      "imgUrl": "/src/assets/propiedades/belg-dto-Moderno.jpg"
+    },
+    {
+      "id": 3,
+      "titulo": "Casa Familiar en Vicente López",
+      "precio": "320.000",
+      "tipo": "Venta",
+      "ubicacion": "Vicente López, GBA",
+      "caracteristicas": "4 amb. | 200m² | 3 baños",
+      "descripcion": "Amplio jardín y piscina, perfecta para familias",
+      "imgUrl": "/src/assets/propiedades/vic-lop-casa-familiar.jpg"
+    },
+    {
+      "id": 4,
+      "titulo": "Loft Moderno en San Telmo",
+      "precio": "220.000",
+      "tipo": "Venta",
+      "ubicacion": "San Telmo, Buenos Aires",
+      "caracteristicas": "2 amb. | 90m² | 1 baño",
+      "descripcion": "Diseño contemporáneo en edificio histórico",
+      "imgUrl": "/src/assets/propiedades/san-telmo-loft.jpg"
+    },
+    {
+      "id": 5,
+      "titulo": "PH Reciclado en Villa Crespo",
+      "precio": "280.000",
+      "tipo": "Venta",
+      "ubicacion": "Villa Crespo, Buenos Aires",
+      "caracteristicas": "3 amb. | 140m² | 2 baños",
+      "descripcion": "Totalmente renovado con patio y parrilla",
+      "imgUrl": "/src/assets/propiedades/villa-crespo-ph.jpg"
+    },
+    {
+      "id": 6,
+      "titulo": "Departamento en Puerto Madero",
+      "precio": "550.000",
+      "tipo": "Venta",
+      "ubicacion": "Puerto Madero, Buenos Aires",
+      "caracteristicas": "4 amb. | 180m² | 3 baños",
+      "descripcion": "Vista al río, amenities premium",
+      "imgUrl": "/src/assets/propiedades/puerto-madero-dto.jpg"
+    },
+    {
+      "id": 7,
+      "titulo": "Casa en Barrio Cerrado",
+      "precio": "480.000",
+      "tipo": "Venta",
+      "ubicacion": "Pilar, GBA",
+      "caracteristicas": "5 amb. | 300m² | 4 baños",
+      "descripcion": "Casa moderna con jardín y pileta",
+      "imgUrl": "/src/assets/propiedades/pilar-casa.jpg"
+    },
+    {
+      "id": 8,
+      "titulo": "Duplex en Caballito",
+      "precio": "290.000",
+      "tipo": "Venta",
+      "ubicacion": "Caballito, Buenos Aires",
+      "caracteristicas": "4 amb. | 160m² | 2 baños",
+      "descripcion": "Excelente ubicación, terraza propia",
+      "imgUrl": "/src/assets/propiedades/caballito-duplex.jpg"
+    },
+    {
+      "id": 9,
+      "titulo": "Monoambiente en Recoleta",
+      "precio": "95.000",
+      "tipo": "Venta",
+      "ubicacion": "Recoleta, Buenos Aires",
+      "caracteristicas": "1 amb. | 35m² | 1 baño",
+      "descripcion": "Ideal inversión, alto potencial de renta",
+      "imgUrl": "/src/assets/propiedades/recoleta-mono.jpg"
+    },
+    {
+      "id": 10,
+      "titulo": "Casa Quinta en Pilar",
+      "precio": "420.000",
+      "tipo": "Venta",
+      "ubicacion": "Pilar, GBA",
+      "caracteristicas": "6 amb. | 400m² | 4 baños",
+      "descripcion": "Amplio parque con pileta y quincho",
+      "imgUrl": "/src/assets/propiedades/pilar-quinta.jpg"
+    },
+    {
+      "id": 11,
+      "titulo": "Departamento en Núñez",
+      "precio": "260.000",
+      "tipo": "Venta",
+      "ubicacion": "Núñez, Buenos Aires",
+      "caracteristicas": "3 amb. | 110m² | 2 baños",
+      "descripcion": "A estrenar, con cochera",
+      "imgUrl": "/src/assets/propiedades/nunez-dto.jpg"
+    },
+    {
+      "id": 12,
+      "titulo": "Oficina en Microcentro",
+      "precio": "185.000",
+      "tipo": "Venta",
+      "ubicacion": "Microcentro, Buenos Aires",
+      "caracteristicas": "3 amb. | 85m² | 2 baños",
+      "descripcion": "Ideal para estudio profesional",
+      "imgUrl": "/src/assets/propiedades/microcentro-oficina.jpg"
+    },
+    {
+      "id": 13,
+      "titulo": "Triplex en Las Cañitas",
+      "precio": "390.000",
+      "tipo": "Venta",
+      "ubicacion": "Las Cañitas, Buenos Aires",
+      "caracteristicas": "4 amb. | 190m² | 3 baños",
+      "descripcion": "Diseño exclusivo, terraza con jacuzzi",
+      "imgUrl": "/src/assets/propiedades/canitas-triplex.jpg"
+    }
+  ]
+}

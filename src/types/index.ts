@@ -6,6 +6,7 @@ export interface Property {
   ubicacion: string;
   caracteristicas: string;
   descripcion: string;
+  imgUrl: string
 }
 
 export interface Testimonial {

@@ -8,7 +8,7 @@
       "ubicacion": "Palermo, Buenos Aires",
       "caracteristicas": "3 amb. | 120m² | 2 baños",
       "descripcion": "Espectacular ático con vista panorámica y terraza privada",
-      "imgUrl": "/src/assets/propiedades/pale-atico.jpg"
+      "imgUrl": "assets/propiedades/pale-atico.jpg"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "ubicacion": "Belgrano, Buenos Aires",
       "caracteristicas": "2 amb. | 75m² | 1 baño",
       "descripcion": "Ubicación privilegiada, totalmente renovado",
-      "imgUrl": "/src/assets/propiedades/belg-dto-Moderno.jpg"
+      "imgUrl": "assets/propiedades/belg-dto-moderno.jpg"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "ubicacion": "Vicente López, GBA",
       "caracteristicas": "4 amb. | 200m² | 3 baños",
       "descripcion": "Amplio jardín y piscina, perfecta para familias",
-      "imgUrl": "/src/assets/propiedades/vic-lop-casa-familiar.jpg"
+      "imgUrl": "assets/propiedades/vic-lop-casa-familiar.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "ubicacion": "San Telmo, Buenos Aires",
       "caracteristicas": "2 amb. | 90m² | 1 baño",
       "descripcion": "Diseño contemporáneo en edificio histórico",
-      "imgUrl": "/src/assets/propiedades/san-telmo-loft.jpg"
+      "imgUrl": "assets/propiedades/san-telmo-loft.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "ubicacion": "Villa Crespo, Buenos Aires",
       "caracteristicas": "3 amb. | 140m² | 2 baños",
       "descripcion": "Totalmente renovado con patio y parrilla",
-      "imgUrl": "/src/assets/propiedades/villa-crespo-ph.jpg"
+      "imgUrl": "assets/propiedades/villa-crespo-ph.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "ubicacion": "Puerto Madero, Buenos Aires",
       "caracteristicas": "4 amb. | 180m² | 3 baños",
       "descripcion": "Vista al río, amenities premium",
-      "imgUrl": "/src/assets/propiedades/puerto-madero-dto.jpg"
+      "imgUrl": "assets/propiedades/puerto-madero-dto.jpg"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "ubicacion": "Pilar, GBA",
       "caracteristicas": "5 amb. | 300m² | 4 baños",
       "descripcion": "Casa moderna con jardín y pileta",
-      "imgUrl": "/src/assets/propiedades/pilar-casa.jpg"
+      "imgUrl": "assets/propiedades/pilar-casa.jpg"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "ubicacion": "Caballito, Buenos Aires",
       "caracteristicas": "4 amb. | 160m² | 2 baños",
       "descripcion": "Excelente ubicación, terraza propia",
-      "imgUrl": "/src/assets/propiedades/caballito-duplex.jpg"
+      "imgUrl": "assets/propiedades/caballito-duplex.jpg"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "ubicacion": "Recoleta, Buenos Aires",
       "caracteristicas": "1 amb. | 35m² | 1 baño",
       "descripcion": "Ideal inversión, alto potencial de renta",
-      "imgUrl": "/src/assets/propiedades/recoleta-mono.jpg"
+      "imgUrl": "assets/propiedades/recoleta-mono.jpg"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "ubicacion": "Pilar, GBA",
       "caracteristicas": "6 amb. | 400m² | 4 baños",
       "descripcion": "Amplio parque con pileta y quincho",
-      "imgUrl": "/src/assets/propiedades/pilar-quinta.jpg"
+      "imgUrl": "assets/propiedades/pilar-quinta.jpg"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "ubicacion": "Núñez, Buenos Aires",
       "caracteristicas": "3 amb. | 110m² | 2 baños",
       "descripcion": "A estrenar, con cochera",
-      "imgUrl": "/src/assets/propiedades/nunez-dto.jpg"
+      "imgUrl": "assets/propiedades/nunez-dto.jpg"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "ubicacion": "Microcentro, Buenos Aires",
       "caracteristicas": "3 amb. | 85m² | 2 baños",
       "descripcion": "Ideal para estudio profesional",
-      "imgUrl": "/src/assets/propiedades/microcentro-oficina.jpg"
+      "imgUrl": "assets/propiedades/microcentro-oficina.jpg"
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
       "ubicacion": "Las Cañitas, Buenos Aires",
       "caracteristicas": "4 amb. | 190m² | 3 baños",
       "descripcion": "Diseño exclusivo, terraza con jacuzzi",
-      "imgUrl": "/src/assets/propiedades/canitas-triplex.jpg"
+      "imgUrl" : "assets/propiedades/nunez-dto.jpg"
     }
   ]
 }

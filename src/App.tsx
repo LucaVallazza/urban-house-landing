@@ -34,7 +34,7 @@ const App = () => {
       ubicacion: 'Palermo, Buenos Aires',
       caracteristicas: '3 amb. | 120m² | 2 baños',
       descripcion: 'Espectacular ático con vista panorámica y terraza privada',
-      imgUrl: '/src/assets/propiedades/pale-atico.jpg'
+      imgUrl: 'assets/propiedades/pale-atico.jpg'
     },
     {
       id: 2,
@@ -44,7 +44,7 @@ const App = () => {
       ubicacion: 'Belgrano, Buenos Aires',
       caracteristicas: '2 amb. | 75m² | 1 baño',
       descripcion: 'Ubicación privilegiada, totalmente renovado',
-      imgUrl: '/src/assets/propiedades/belg-dto-Moderno.jpg'
+      imgUrl: 'assets/propiedades/belg-dto-moderno.jpg'
     },
     {
       id: 3,
@@ -54,7 +54,7 @@ const App = () => {
       ubicacion: 'Vicente López, GBA',
       caracteristicas: '4 amb. | 200m² | 3 baños',
       descripcion: 'Amplio jardín y piscina, perfecta para familias',
-      imgUrl: '/src/assets/propiedades/vic-lop-casa-familiar.jpg'
+      imgUrl: 'assets/propiedades/vic-lop-casa-familiar.jpg'
     }
   ];
 
@@ -83,7 +83,7 @@ const App = () => {
   ];
 
   return (
-    <Router>
+    <Router basename="/urban-house-landing">
       <Routes>
         <Route path="/" element={
           <div className="min-h-screen bg-gray-50 scroll-smooth">

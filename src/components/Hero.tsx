@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Background with subtle zoom effect */}
       <div className="absolute inset-0 bg-gray-900/70">
         <img
-          src="src/assets/hero_background.jpg"
+          src="hero_background.jpg"
           alt="Hero Background"
           className={`
             w-full h-full object-cover brightness-75 

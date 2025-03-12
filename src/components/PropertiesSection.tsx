@@ -1,6 +1,6 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import PropertyCard from './PropertyCard';
+import React from "react";
+import { Link } from "react-router-dom";
+import PropertyCard from "./PropertyCard";
 
 interface Property {
   id: number;
@@ -10,15 +10,16 @@ interface Property {
   ubicacion: string;
   caracteristicas: string;
   descripcion: string;
+  imgUrl: string;
 }
 
 interface PropertiesSectionProps {
   propiedades: Property[];
 }
 
-
-
-const PropertiesSection: React.FC<PropertiesSectionProps> = ({ propiedades }) => {
+const PropertiesSection: React.FC<PropertiesSectionProps> = ({
+  propiedades,
+}) => {
   return (
     <section id="propiedades" className="py-20 bg-white">
       <div className="container mx-auto px-4">
@@ -31,7 +32,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({ propiedades }) =>
           ))}
         </div>
         <div className="flex justify-center mt-12">
-          <Link 
+          <Link
             to="/propiedades"
             className="
               bg-blue-600 
@@ -58,4 +59,3 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({ propiedades }) =>
 };
 
 export default PropertiesSection;
-

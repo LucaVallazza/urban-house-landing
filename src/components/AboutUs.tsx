@@ -1,26 +1,26 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Award, Users, ShieldCheck, Target, Star, ChevronLeft, ChevronRight } from 'lucide-react';
 
 const AboutUs: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState(0);
-  const [isMobile, setIsMobile] = useState(false);
+  // const [isMobile, setIsMobile] = useState(false);
   
-  // Verificar si la pantalla es móvil al cargar y cuando cambia el tamaño
-  useEffect(() => {
-    const checkIfMobile = () => {
-      setIsMobile(window.innerWidth < 640); // 640px es el breakpoint sm en Tailwind
-    };
+  // // Verificar si la pantalla es móvil al cargar y cuando cambia el tamaño
+  // useEffect(() => {
+  //   const checkIfMobile = () => {
+  //     setIsMobile(window.innerWidth < 640); // 640px es el breakpoint sm en Tailwind
+  //   };
     
-    // Verificar inicialmente
-    checkIfMobile();
+  //   // Verificar inicialmente
+  //   checkIfMobile();
     
-    // Verificar cuando cambia el tamaño de la ventana
-    window.addEventListener('resize', checkIfMobile);
+  //   // Verificar cuando cambia el tamaño de la ventana
+  //   window.addEventListener('resize', checkIfMobile);
     
-    return () => {
-      window.removeEventListener('resize', checkIfMobile);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('resize', checkIfMobile);
+  //   };
+  // }, []);
   
   // Datos de las tarjetas
   const features = [

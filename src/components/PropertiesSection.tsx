@@ -27,7 +27,7 @@ const PropertiesSection: React.FC<PropertiesSectionProps> = ({
   const [touchStart, setTouchStart] = useState(0);
   const [touchEnd, setTouchEnd] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const autoplayTimerRef = useRef<NodeJS.Timeout | null>(null);
+  const autoplayTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   
   // Determinar cantidad de elementos por vista según el ancho de pantalla
   useEffect(() => {

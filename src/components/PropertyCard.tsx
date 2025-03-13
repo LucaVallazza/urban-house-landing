@@ -44,8 +44,9 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ propiedad }) => {
         <p className="text-gray-500 text-sm mb-4 flex-grow">{propiedad.caracteristicas}</p>
         
         {/* Botón con borde azul y fondo blanco */}
-        <button className="mt-auto border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 py-2 px-4 rounded-md text-sm font-medium transition-colors">
+        <button className="mt-auto border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 py-2 px-4 rounded-md text-sm font-medium transition-colors flex items-center justify-center">
           Ver detalles
+          <ChevronRight size={16} className="ml-1" />
         </button>
       </div>
     </div>

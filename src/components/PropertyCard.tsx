@@ -15,6 +15,11 @@ interface PropertyCardProps {
 }
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ propiedad }) => {
+  // Manejador de eventos para el botón "Ver detalles"
+  const handleVerDetalles = () => {
+    alert("Esta función no está implementada para la versión de demostración de esta página");
+  };
+  
   return (
     <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 h-full flex flex-col">
       {/* Imagen - altura fija */}
@@ -44,7 +49,10 @@ const PropertyCard: React.FC<PropertyCardProps> = ({ propiedad }) => {
         <p className="text-gray-500 text-sm mb-4 flex-grow">{propiedad.caracteristicas}</p>
         
         {/* Botón con borde azul y fondo blanco */}
-        <button className="mt-auto border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 py-2 px-4 rounded-md text-sm font-medium transition-colors flex items-center justify-center">
+        <button 
+          onClick={handleVerDetalles}
+          className="mt-auto border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 py-2 px-4 rounded-md text-sm font-medium transition-colors flex items-center justify-center"
+        >
           Ver detalles
           <ChevronRight size={16} className="ml-1" />
         </button>

@@ -8,6 +8,7 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 import AllProperties from './pages/AllProperties';
 import properties from './data/properties.json';
+import AboutUs from './components/AboutUs';
 
 const App = () => {
   const [visible, setVisible] = useState(false);
@@ -15,7 +16,14 @@ const App = () => {
   useEffect(() => {
     const handleScroll = () => {
       // Only hide when at the very top (with small threshold)
-      setVisible(window.scrollY > 10);
+      if(!visible){
+        if(window.location.pathname.split('/')[2] =='propiedades'){
+          setVisible(true)
+        }
+        if(window.scrollY > 10){
+          setVisible(true);
+        }
+      }
     };
 
     // Initial check
@@ -34,7 +42,7 @@ const App = () => {
       ubicacion: 'Palermo, Buenos Aires',
       caracteristicas: '3 amb. | 120m² | 2 baños',
       descripcion: 'Espectacular ático con vista panorámica y terraza privada',
-      imgUrl: 'assets/propiedades/pale-atico.jpg'
+      imgUrl: '/urban-house-landing/assets/propiedades/pale-atico.jpg'
     },
     {
       id: 2,
@@ -44,7 +52,7 @@ const App = () => {
       ubicacion: 'Belgrano, Buenos Aires',
       caracteristicas: '2 amb. | 75m² | 1 baño',
       descripcion: 'Ubicación privilegiada, totalmente renovado',
-      imgUrl: 'assets/propiedades/belg-dto-moderno.jpg'
+      imgUrl: '/urban-house-landing/assets/propiedades/belg-dto-moderno.jpg'
     },
     {
       id: 3,
@@ -54,7 +62,7 @@ const App = () => {
       ubicacion: 'Vicente López, GBA',
       caracteristicas: '4 amb. | 200m² | 3 baños',
       descripcion: 'Amplio jardín y piscina, perfecta para familias',
-      imgUrl: 'assets/propiedades/vic-lop-casa-familiar.jpg'
+      imgUrl: '/urban-house-landing/assets/propiedades/vic-lop-casa-familiar.jpg'
     }
   ];
 
@@ -89,6 +97,7 @@ const App = () => {
           <div className="min-h-screen bg-gray-50 scroll-smooth">
             <Navbar visible={visible} />
             <Hero />
+            <AboutUs />
             <PropertiesSection propiedades={propiedadesDestacadas} />
             <section id="testimonios" className="py-20 bg-gray-50">
               <div className="container mx-auto px-4">

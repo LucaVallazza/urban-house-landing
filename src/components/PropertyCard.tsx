@@ -16,33 +16,37 @@ interface PropertyCardProps {
 
 const PropertyCard: React.FC<PropertyCardProps> = ({ propiedad }) => {
   return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <img
-        src={propiedad.imgUrl}
-        alt={propiedad.titulo}
-        className="w-full h-48 object-cover"
-      />
-      <div className="p-6">
-        <div className="flex justify-between items-start mb-4">
-          <h3 className="text-xl font-semibold">{propiedad.titulo}</h3>
-          <span className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm">
-            {propiedad.tipo}
-          </span>
+    <div className="bg-white rounded-lg overflow-hidden shadow-md border border-gray-100 h-full flex flex-col">
+      {/* Imagen - altura fija */}
+      <div className="relative h-48 md:h-56">
+        <img 
+          src={propiedad.imgUrl} 
+          alt={propiedad.titulo} 
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute top-0 right-0 bg-blue-600 text-white px-3 py-1 text-sm font-medium">
+          {propiedad.tipo}
         </div>
-        <p className="text-gray-600 mb-4">{propiedad.descripcion}</p>
-        <div className="flex items-center text-gray-500 mb-4">
-          <MapPin className="w-4 h-4 mr-2" />
+      </div>
+      
+      {/* Contenido - flex-grow para expandirse */}
+      <div className="p-4 flex flex-col flex-grow">
+        <h3 className="text-lg font-semibold mb-2">{propiedad.titulo}</h3>
+        <p className="text-blue-600 font-bold mb-2">${propiedad.precio}</p>
+        
+        {/* Ubicación con ícono de ubicación */}
+        <p className="text-gray-500 text-sm mb-2 flex items-center">
+          <MapPin size={14} className="mr-1 flex-shrink-0 text-gray-400" />
           {propiedad.ubicacion}
-        </div>
-        <div className="text-gray-600 mb-4">{propiedad.caracteristicas}</div>
-        <div className="flex justify-between items-center">
-          <span className="text-2xl font-bold text-blue-600">
-            USD {propiedad.precio}
-          </span>
-          <button className="text-blue-600 hover:text-blue-800 font-medium">
-            Ver más <ChevronRight className="inline-block" />
-          </button>
-        </div>
+        </p>
+        
+        <p className="text-gray-500 text-sm mb-2">{propiedad.descripcion}</p>
+        <p className="text-gray-500 text-sm mb-4 flex-grow">{propiedad.caracteristicas}</p>
+        
+        {/* Botón con borde azul y fondo blanco */}
+        <button className="mt-auto border border-blue-600 text-blue-600 bg-white hover:bg-blue-50 py-2 px-4 rounded-md text-sm font-medium transition-colors">
+          Ver detalles
+        </button>
       </div>
     </div>
   );

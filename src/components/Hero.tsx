@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Background with subtle zoom effect */}
       <div className="absolute inset-0 bg-gray-900/70">
         <img
-          src="/urban-house-landing/hero_background.jpg"
+          src="/hero_background.jpg"
           alt="Hero Background"
           className={`
             w-full h-full object-cover brightness-75 
@@ -33,7 +33,8 @@ const Hero = () => {
       <div className="relative container mx-auto px-4 h-full flex flex-col justify-center items-center text-center">
         {/* Logo with simple fade */}
         <img 
-          src="/urban-house-landing/logo/urbanhouse_icon_white.png" 
+          // src="/urban-house-landing/logo/urbanhouse_icon_white.png" 
+          src="/logo/urbanhouse_icon_white.png" 
           alt="Urban House Logo" 
           className={`
             h-32 w-auto mb-8 drop-shadow-xl

@@ -41,7 +41,8 @@ const Navbar: React.FC<NavbarProps> = ({ visible }) => {
           <div className="flex items-center">
             <Link to="/" onClick={() => setMobileMenuOpen(false)}>
               <img 
-                src="/urban-house-landing/logo/urbanhouse_icon.png" 
+                src="/logo/urbanhouse_icon.png" 
+                // src="/urban-house-landing/logo/urbanhouse_icon.png" 
                 alt="Urban House Logo" 
                 className="h-12 w-auto"
               />
